@@ -31,6 +31,7 @@ class MainActivity: FlutterActivity() {
     private var accelerometer: Sensor? = null
     private var sensorListener: SensorEventListener? = null
 
+    //Flutter Engine Configuration (Birdge is established here)
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
         
